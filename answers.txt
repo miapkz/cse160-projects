@@ -1,0 +1,17 @@
+Name: Mia Pekez
+CSE 160
+Homework 6
+
+For each problem that requires a written answer, write (or copy-and-paste)
+your answers in this file.  When you are done, you should have replaced all
+the ellipses (the three dots) with your answers.
+
+Answer to Problem 6:
+
+The data suggest that the election was fraudulent. 
+When running the random samples of 10,000 MSEs five times, I got the null hypothesis rejection levels 0.0479, 0.0476, 0.0436, 0.0446 and 0.0382. All of these values are less than p = 0.05, the threshold for statistical significance. 
+
+Collaboration:
+
+None
+
