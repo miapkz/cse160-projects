@@ -1,0 +1,49 @@
+Name: ...
+CSE 160
+Homework 2
+
+For each problem that requires a written answer, write (or copy-and-paste)
+your answers in this file.  When you are done, you should have replaced all
+the ellipses (the three dots) with your answers.
+
+At the end, you will turn in this file and your modified
+dna_analysis.py program.
+
+
+Problem 0: Setup
+
+0.4302926296296296
+
+Problem 1: Remove some lines
+
+When I commented out 'total_count = 0', the program couldn't run because 'total_count' was not defined. 
+If I commented out 'nucleotides = filename_to_string(file_name)', then the file couldn't be read in, and later, when 'nucleotides' appear in a for loop, an error would say 'nucleotides' aren't defined.
+
+Problem 2: Compute AT Content
+
+AT-content: 0.5694001293886175
+
+Problem 3: Count nucleotides
+
+G-count: 1
+C-count: 2
+A-count: 5
+T-count: 2
+
+Problem 4: Sanity-check the data
+
+All the files have the same value for total count and length of nucleotides, but a different, smaller value for the sum of G, C, A and T. One reason for this could be that the DNA has mutations, so not all the nucleotides have one of those letters. For example, when looking through sample 1, we can see that some lines of nucleotides contain the letter 'N'.
+To calculate GC content, we should use the sum of G, C, A and T counts in the denominator. This is because we are calculating the percentage of G and C nucleotides out of G, C, A and T, not potential mutations.
+
+Problem 5: Compute the AT/GC ratio
+
+AT/GC Ratio: 1.3239998343934933
+
+Problem 6: Categorize organisms
+
+GC Classification: moderate
+
+Collaboration:
+
+No collaboration with other students. 
+
